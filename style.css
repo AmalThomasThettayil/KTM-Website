@@ -1,0 +1,259 @@
+body{
+    font-family: 'Quantico', sans-serif;
+    margin: 0;
+}
+.startimage{
+    position: relative;
+    width:1348px ;
+    height: 654px;    
+    object-fit:none;
+}
+.topbar{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    /* background-color:wheat; */
+    position: absolute;
+    top: 1px;
+    justify-content: space-between;
+    
+}
+.navbar{
+    display: flex;
+    max-width:50%;
+    height: 150px;
+    /* background-color:white; */
+}
+.navlist{
+    display: flex;
+    list-style-type: none;
+    color: white;
+}
+.navlist li{
+    font-family: 'Quantico', sans-serif;
+}
+.toplist{
+    padding-top: 60px;
+    padding-left: 30px;
+    font-size: 20px;
+    font-weight: bolder;
+    
+}
+.ktmlogo{
+    height: 150px;
+    padding-right: 80px;    
+}
+.iconlogo i{
+    color: rgb(252, 89, 7);
+    /* background-color: aqua;  */
+    height: 50px;
+    width: 50px;   
+}
+.iconlogo{
+    display: flex;
+}
+.icon{
+    padding-top: 60px;
+    display: flex;
+}
+.findmore{
+    position:absolute;
+    top:320px;
+    left:560px;
+    height: 30px;
+}
+.findmore button{
+    color: white;
+    background-color: #f60;
+    font-size: 20px;
+    border-color:#f60;
+    height: 75px;
+    width:230px;
+    font-family: 'Quantico', sans-serif;
+    font-weight: 700;
+}
+.findmore button:hover{
+background-color: transparent;
+color: #f60;
+font-weight: 700;
+border-color:#f60;
+}
+.cont1{
+    width: 80%;
+    margin-left:45px;
+    display: flex;
+   margin-top: 70px;
+}
+.naked,.travel,.super{
+    text-align: center;
+    margin-right: 30px;
+}
+.cont1images{
+    width: 400px;
+}
+h1{
+    font-size: 15px;
+}
+h2{
+    margin-top: 0px;
+}
+.cont2images{
+    width: 380px;
+}
+.junior,.factory,.rider{
+    text-align: left;
+    margin-right: 65px;
+}
+p{
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    text-align: justify;
+}
+.insta{
+    width: 95%;
+    margin-left:45px;
+    display: flex;
+   margin-top: 70px;
+}
+.instaimage{
+    height:200px;
+    width: 300px;
+    object-fit: cover;
+    
+}
+.instaleft,.instacenter{
+    width: 300px;    
+}
+.instaright{
+    background-color: black;
+    width: 100%;
+    text-align: center;
+    padding-top: 50px;  
+}
+h3{
+    color: white;
+    font-size: 40px;
+    margin: 0px;
+   
+}
+.line{
+    background-color: white;
+    width: 60px;
+    height: 2px;
+    margin-left: 300px;
+}
+.pp{
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    padding-left: 190px;
+    color: white;
+}
+.instabutton i{
+    color:white;
+    background-color: black;
+
+}
+.instabutton button{
+    margin-top: 50px;
+    color: white;
+    border-color: white;
+    background-color: black;
+    height: 75px;
+    width:230px;
+    font-size: 18px;
+}
+.instabutton button:hover,.instabutton i:hover{
+    color: #f60;
+    border-color: #f60;
+}
+.newsletter{
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+}
+.newsletter button{
+    border-color: #f60;
+    color: #f60;
+    background-color: white;
+    font-family: 'Quantico', sans-serif;
+    height: 65px;
+    width:150px;
+    margin-left: 20px;
+}
+.newsletter button:hover{
+    border: none;
+    background-color: #f60;
+    color: white;
+}
+.dividergrey{
+    height: 1px;
+    background-color: rgb(169, 166, 166);
+    width: 100%;
+    margin-top: 70px;
+}
+.declaration p{
+    font-family: 'Quantico', sans-serif;
+    text-align: center;
+    font-size: smaller;
+    margin-left: 300px;
+    margin-right: 300px;
+    color:rgb(169, 166, 166) ;
+    line-height: 20px;
+    margin-top: 50px;
+}
+.footer{
+    background-color: black;
+}
+.footerup{
+   color: white;
+    display: flex;
+    margin-left: 40px;
+    margin-right: 80px;
+    justify-content: space-between;
+}
+.connectlogo{
+    display: flex;
+    justify-content: space-between;
+    width: 100px;
+    height: 50px;
+}
+ul{
+    list-style: none;
+    text-align: left;
+    padding-left: 0;
+}
+li{
+    font-family: 'Lato', sans-serif;
+    line-height: 30px;
+}
+li:hover{
+    color: #f60;
+}
+.whiteline{
+    background-color: black;
+   
+}
+.realline{
+    background-color: white;
+    height: 1px;
+    width: 93%;
+    margin-left: 40px; 
+}
+.footerdown{
+    color: white;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 40px;
+    padding-bottom: 40px;
+}
+.backtop{
+    color: #f60;
+    display: flex;
+}
+.backtop i{
+    margin-top: 25px;
+    margin-left: 15px;
+}
